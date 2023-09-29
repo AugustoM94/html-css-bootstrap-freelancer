@@ -19,3 +19,6 @@ body {
 img {
     width: 100%;
 }
+#hero span {
+    font-size: 0.7rem;
+}
