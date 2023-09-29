@@ -2,3 +2,20 @@ body {
     background-color: white;
     font-family: 'Open Sans' 'Helvetica Neue';
 }
+:root {
+    --bg-section: rgba(26,188,156,255);
+    --bg-footer-top: rgba(58,84,109,255);
+    --bg-footer-bottom: rgba(44,62,80,255);
+}
+.bg-section {
+    background-color: var(--bg-section);
+}
+.bg-footer-top {
+    background-color: var(--bg-footer-top);
+}
+.bg-footer-bottom {
+    background-color: var(--bg-footer-bottom);
+}
+img {
+    width: 100%;
+}
