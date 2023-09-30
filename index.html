@@ -19,51 +19,57 @@
 
 <body>
     <header class="bg-footer-top">
-        <nav class="container">
-            <div class="row">
-                <div class="col-4">
-                    <h3>Start Bootstrap</h3>
-                </div>
-                <div class="col-4">
-
-                </div>
+        <nav class="navbar container">
+            <div class=" text-white text-uppercase">
+                <a class="navbar-brand text-white" href="#">Start Bootstrap</a>
             </div>
+            <input id="menu-toggle" type="checkbox" /> 
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+              </label>
+                <ul class="menu text-white text-uppercase">
+                  <li><a href="#Portfolio"></a>Portfolio</li>
+                  <li><a href="#about"></a>About</li>
+                  <li><a href="#contact"></a>Contact</li>               
+                </ul>
+        
         </nav>
     </header>
     <main>
         <section id="hero" class="bg-section">
-            <div class="container py-5 mt-5 ">
+            <div class="container ">
                 <div class="row justify-content-center">
                     <div class="col-6 col-md-3 text-center">
                         <img src="img/avatar.svg" alt="Avatar Image">
                     </div>
-                    <h1 class="text-white text-center text-uppercase mt-1">Start Bootstrap</h1>
-                    <div class="row justify-content-center">
-                        <div class="col-5 col-md-4 col-lg-3 text-white">
-                            <div class="row justify-content-center">
-                                <div class="col px-1">
-                                    <hr class="xxl_hr-style">
-                                </div>
-                                <div class="col-2 d-flex justify-content-center">
-                                    <i class="fa-solid fa-star fs-1"></i>
-                                </div>
-                                <div class="col px-1">
-                                    <hr class="xxl_hr-style ">
-                                </div>
+                </div>
+                <h1 class="text-white text-center text-uppercase my-">Start Bootstrap</h1>
+                <div class="row justify-content-center">
+                    <div class="col-5 col-md-4 col-lg-3 text-white">
+                        <div class="row justify-content-center">
+                            <div class="col px-1">
+                                <hr class="xxl_hr-style">
+                            </div>
+                            <div class="col-2 d-flex justify-content-center">
+                                <i class="fa-solid fa-star fs-1"></i>
+                            </div>
+                            <div class="col px-1">
+                                <hr class="xxl_hr-style ">
                             </div>
                         </div>
                     </div>
-                    <div class=" container col-md-4 col-lg-3 text-white">
-                            <div class="row justify-content-center">
-                                <div class="col-12 text-center">
-                                    <span class="text-uppercase">Graphic Designer - Web Designer - Illustrator</span>
-                                </div>
-                            </div>
+                </div>
+                <div class=" container col-md-8 col-lg-12 text-center text-white  justify-content-between">
+                    <div class="row ">
+                        <div class="col-12 py-4">
+                            <span class="text-uppercase">Graphic Designer - Web Designer - Illustrator</span>
                         </div>
+                    </div>
+                </div>
         </section>
-        <section id="portfolio">
-            <div class="container">
-                <h2 class="mt-2 mb-2 text-center text-uppercase mt-1">Portfolio</h2>
+        <section >
+            <div class="container" id="Portfolio">
+                <h2 class="mt-2 mb-2 text-center text-uppercase my-3">Portfolio</h2>
                 <div class="row justify-content-center">
                     <div class="col-5 col-md-4 col-lg-3">
                         <div class="row justify-content-center">
@@ -80,22 +86,22 @@
                     </div>
                     <div class="container text-center">
                         <div class="row">
-                            <div class="col-12 col-lg-3 mt-2 mb-2 col-md-6 col-lg-4 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
                                 <img src="img/cabin.png" alt="Cabin" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-3  mt-2 mb-2 col-md-6 col-lg-4 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4 ">
                                 <img src="img/cake.png" alt="cake" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-3  mt-2 mb-2 col-md-6 col-lg-4 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
                                 <img src="img/circus.png" alt="circus" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-3  mt-2 mb-2 col-md-6 col-lg-4 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
                                 <img src="img/game.png" alt="game" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-3  mt-2 mb-2 col-md-6 col-lg-4 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
                                 <img src="img/safe.png" alt="safe" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-3  mt-2 mb-2 col-md-6 col-lg-4 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
                                 <img src="img/submarine.png" alt="submarine" class="rounded-2">
                             </div>
                         </div>
@@ -103,14 +109,14 @@
         </section>
         <section id="about" class=" bg-section mt-4">
             <div class="container p-2 text-center">
-                <h2 class="text-white text-center text-uppercase mt-3">About</h2>
+                <h2 class="text-white text-center text-uppercase my-3">About</h2>
                 <div class="row justify-content-center">
                     <div class="col-5 col-md-4 col-lg-3 text-white">
                         <div class="row justify-content-center">
                             <div class="col px-1">
                                 <hr class="xxl_hr-style">
                             </div>
-                            <div class="col-2 d-flex justify-content-center">
+                            <div class="col-2  d-flex justify-content-center">
                                 <i class="fa-solid fa-star fs-1 "></i>
                             </div>
                             <div class="col px-1">
@@ -131,14 +137,25 @@
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-4 text-center">
-                                <button class="btn btn-secondary btn-outline-light bg-transparent"><i
+                                <button class="btn btn-secondary btn-outline-light bg-transparent mt-5"><i
                                         class="fa-solid fa-download"></i> Download</button>
                             </div>
                         </div>
                     </div>
         </section>
-        <section>
-
+        <section  id="contact"> 
+            <div class="container">
+               <h2 class="text-center">Contact me</h2>
+               <div>
+                    <input type="" value="" placeholder="Nome">
+                    <hr>
+                    <input type="email" name="" placeholder="Email Address" id="">
+                    <hr>
+                    <input type="number" name="" id="" placeholder="Phone Number">
+                    <hr>
+                    <input type="text" name="" id="" placeholder="Messaggio">
+               </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -148,11 +165,11 @@
 
                     <div class="row justify-content-center">
                         <div class="col-12 mb-4 col-md-4 text-center">
-                            <h3 class="text-uppercase">Location</h3>
+                            <h3 class="text-uppercase mb-3">Location</h3>
                             <span>2215 John Daniel Drive Clark, MO 54243</span>
                         </div>
                         <div class="col-12 mb-4 col-md-4 text-center">
-                            <h3 class="text-uppercase">Around the web</h3>
+                            <h3 class="text-uppercase mb-3">Around the web</h3>
                             <div class="row justify-content-center">
                                 <div class="col-8 col-md-12">
                                     <i class="fa-brands fa-facebook-f rounded-circle border border-2 ms_icon p-1"
@@ -167,7 +184,7 @@
                             </div>
                         </div>
                         <div class="col-12 mb-4 col-md-4 text-center">
-                            <h3 class="text-uppercase">About freelancer</h3>
+                            <h3 class="text-uppercase mb-3">About freelancer</h3>
                             <span>Freelance is a free to use, open source Bootstrap theme created by <span
                                     class="ms-text-dark-aqua">Start Bootstrap</span>.</span>
                         </div>
