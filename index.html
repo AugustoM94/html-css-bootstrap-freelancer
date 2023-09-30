@@ -86,22 +86,22 @@
                     </div>
                     <div class="container text-center">
                         <div class="row">
-                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 col-md-4 mt-2 mb-2 g-4">
                                 <img src="img/cabin.png" alt="Cabin" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4 ">
+                            <div class="col-12 col-lg-6 col-xl-4 col-md-4 mt-2 mb-2 g-4 ">
                                 <img src="img/cake.png" alt="cake" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 col-md-4 mt-2 mb-2 g-4">
                                 <img src="img/circus.png" alt="circus" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 col-md-4 mt-2 mb-2 g-4">
                                 <img src="img/game.png" alt="game" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 col-md-4 mt-2 mb-2 g-4">
                                 <img src="img/safe.png" alt="safe" class="rounded-2">
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-4 mt-2 mb-2 g-4">
+                            <div class="col-12 col-lg-6 col-xl-4 col-md-4 mt-2 mb-2 g-4">
                                 <img src="img/submarine.png" alt="submarine" class="rounded-2">
                             </div>
                         </div>
@@ -143,19 +143,36 @@
                         </div>
                     </div>
         </section>
-        <section  id="contact"> 
-            <div class="container">
+        <section  id="contact" class="py-3"> 
+            <div class="container py-3">
                <h2 class="text-center">Contact me</h2>
-               <div>
-                    <input type="" value="" placeholder="Nome">
-                    <hr>
-                    <input type="email" name="" placeholder="Email Address" id="">
-                    <hr>
-                    <input type="number" name="" id="" placeholder="Phone Number">
-                    <hr>
-                    <input type="text" name="" id="" placeholder="Messaggio">
+               <div class="row justify-content-center">
+                <div class="col-5 col-md-4 col-lg-3 ">
+                    <div class="row justify-content-center">
+                        <div class="col px-1">
+                            <hr class="xxl_hr-style">
+                        </div>
+                        <div class="col-2  d-flex justify-content-center">
+                            <i class="fa-solid fa-star fs-1 "></i>
+                        </div>
+                        <div class="col px-1">
+                            <hr class="xxl_hr-style ">
+                        </div>
+                    </div>
                </div>
-            </div>
+               <div class="input py-2 text-dark-black">
+                    <input type="text" class="form-control border-0" value="" placeholder="Nome">
+                    <hr>
+                    <input type="email"  class="form-control border-0"  name="" placeholder="Email Address" id="">
+                    <hr>
+                    <input type="number"  class="form-control border-0"  name="" id="" placeholder="Phone Number">
+                    <hr>
+                    <textarea class="border-0 form-control pb-3" placeholder="Message" required></textarea>               
+                    <hr class="mt-5">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-success text-white border-0 bg-section">Send</button>
+                </div>
         </section>
     </main>
     <footer>
