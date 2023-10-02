@@ -75,9 +75,12 @@ img {
   font-weight: bold;
 
 }
+#my-nav .navbar-nav .nav-item .nav-link a:hover {
+  color: var(--bg-section);
+}
 @media screen and (min-width: 1200px) {
-.container {
-  padding: 20px;
+#hero {
+  padding: 50px;
 }
 .container .navbar-brand {
   font-size: 1.7rem;
