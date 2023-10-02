@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="">
     <title>Bootstrap Freelancer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" cross
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="bg-footer-top">
-        <nav class="navbar container">
-            <div class=" text-white text-uppercase">
-                <a class="navbar-brand text-white" href="#">Start Bootstrap</a>
+    <header class="bg-footer-top text-light">
+        <nav class="navbar navbar-expand-lg " data-bs-theme="bg-footer-top">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#my-nav" aria-controls="#my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="my-nav">
+                    <ul class="navbar-nav fw-bold ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase text-white " aria-current="page" href="#Portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <input id="menu-toggle" type="checkbox" />
-            <label class='menu-button-container' for="menu-toggle">
-                <div class='menu-button'></div>
-            </label>
-            <ul class="menu text-white text-uppercase">
-                <li><a href="#Portfolio"></a>Portfolio</li>
-                <li><a href="#about"></a>About</li>
-                <li><a href="#contact"></a>Contact</li>
-            </ul>
         </nav>
     </header>
     <main>
@@ -42,7 +45,7 @@
                         <img src="img/avatar.svg" alt="Avatar Image">
                     </div>
                 </div>
-                <h1 class="text-white text-center text-uppercase my-">Start Bootstrap</h1>
+                <h1 class="text-white text-center text-uppercase my-3">Start Bootstrap</h1>
                 <div class="my-star d-flex justify-content-center align-items-center my-2">
                     <i class="fa-solid fa-star fs-1 text-white"></i>
                 </div>
@@ -53,10 +56,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
         <section>
             <div class="container" id="Portfolio">
-                <h2 class="mt-2 mb-2 text-center text-uppercase my-3">Portfolio</h2>
+                <h2 class="my-3 text-center text-uppercase my-3">Portfolio</h2>
                 <div class="my-star-black d-flex justify-content-center align-items-center mb-4 text-black">
                     <i class="fa-solid fa-star fs-1 "></i>
                 </div>
@@ -135,7 +139,8 @@
                         <hr>
                         <input type="number" class="form-control border-0" name="" id="" placeholder="Phone Number">
                         <hr>
-                        <textarea class="border-0 form-control pb-3" cols="30" rows="10" placeholder="Message" required></textarea>
+                        <textarea class="border-0 form-control pb-3" cols="30" rows="10" placeholder="Message"
+                            required></textarea>
                         <hr class="mt-2">
                     </div>
                     <div>
@@ -187,7 +192,5 @@
                     </div>
                 </div>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-
 </html>
