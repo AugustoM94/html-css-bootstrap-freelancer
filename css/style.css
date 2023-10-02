@@ -19,10 +19,16 @@ body {
 #menu-toggle,{
   display: none;
 }
+#hero img {
+  max-width: 300px;
+  display: block;
+  text-align: center;
+}
+
 img {
   width: 100%;
 }
-#hero span {
+#hero h5 {
   font-size: 0.7rem;
 }
 h2 {
@@ -30,27 +36,53 @@ h2 {
   text-align: center;
 }
 
-html, body {
-  margin: 0;
-  height: 100%;
+.my-star:after, .my-star:before {
+  content: '';
+  display: block;
+  width: 15%;
+  height: 3px;
+  margin: 0 10px;
+  background-color: white;
 }
-
+.my-star-black:after, .my-star-black:before {
+  content: '';
+  display: block;
+  width: 15%;
+  height: 3px;
+  margin: 0 10px;
+  background-color: black;
+}
 * {
   font-family: "Raleway";
   box-sizing: border-box;
 }
-
-.top-nav {
+.my-image-container {
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.my-image-container:hover:after {
+  content: "+";
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  background-color: #00BAF0;
-  background: linear-gradient(to left, #f46b45, #eea849);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #FFF;
-  height: 50px;
-  padding: 1em;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #20c9967b;
+  color: white;
+  font-size: 6em;
+  font-weight: bold;
+
+}
+.border {
+  border-bottom: 1px solid black;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 .menu {
@@ -167,8 +199,8 @@ html, body {
 display: none;
 }
 
-#hero span {
-  font-size: 1.2rem;
+#hero h5 {
+  font-size: 1.3em;
 }
 #about {
   padding: 50px;
